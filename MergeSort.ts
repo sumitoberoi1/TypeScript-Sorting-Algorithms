@@ -1,4 +1,4 @@
-const mergeSort = (arr = [2, 5, 1, 3, 7, 2, 3, 8, 6, 3]) => {
+const mergeSort = (arr = [2, 5, 1, 3, 7, 2, 3, 8, 6, 3]):number[] => {
     if (arr.length === 1) {
         return arr;
     }

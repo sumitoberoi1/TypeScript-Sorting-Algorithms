@@ -4,8 +4,11 @@
   "description": "Sorting in Type Script",
   "main": "BubbleSort.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "author": "Sumit Oberoi",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.1.3"
+  }
 }

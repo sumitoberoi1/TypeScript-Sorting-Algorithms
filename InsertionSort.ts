@@ -1,4 +1,4 @@
-const insertionSort = (arr = [4,56,7,8]) => {
+const insertionSort = (arr = [4,56,7,8]):number[] => {
    
     for (let i=0; i<arr.length; i++) {
         const temp = arr[i];
